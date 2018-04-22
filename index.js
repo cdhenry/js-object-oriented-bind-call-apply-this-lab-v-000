@@ -7,7 +7,6 @@ function setThisWithCall(fn, thisValue, arg){
 }
 
 function setThisWithApply(fn, thisValue, args){
-  //debugger;
   return fn.apply(thisValue, args);
 }
 
