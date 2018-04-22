@@ -8,7 +8,7 @@ function setThisWithCall(fn, thisValue, arg){
 
 function setThisWithApply(fn, thisValue, args){
   //debugger;
-  return fn.call(thisValue, args[0]);
+  return fn.call(thisValue, [args[0], args[1]]);
 }
 
 function returnNewFunctionOf(functionToBeCopied, thisValue){
