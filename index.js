@@ -3,8 +3,7 @@ function justInvoke(fn){
 }
 
 function setThisWithCall(fn, thisValue, arg){
-  debugger;
-  return fn.call(this, arg) = thisValue;
+  return fn.call(this).thisValue = arg
 }
 
 function setThisWithApply(fn, thisValue, args){
@@ -14,3 +13,4 @@ function setThisWithApply(fn, thisValue, args){
 function returnNewFunctionOf(functionToBeCopied, thisValue){
 
 }
+  
